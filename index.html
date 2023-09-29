@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo_details">
+      <i class="fa-solid fa-handshake-simple"></i>
+      <div class="logo_name">GoSquared</div>
+      <i class="bx bx-menu" id="btn"></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <i class="bx bx-search"></i>
+        <input type="text" placeholder="Search...">
+        <span class="tooltip">Search</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-pie-chart-alt-2"></i>
+          <span class="link_name">Analytics</span>
+        </a>
+        <span class="tooltip">Analytics</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-user"></i>
+          <span class="link_name">People</span>
+        </a>
+        <span class="tooltip">People</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-chat"></i>
+          <span class="link_name">Live Chat</span>
+        </a>
+        <span class="tooltip">Live Chat</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa-solid fa-wand-sparkles"></i>
+          <span class="link_name">Automation</span>
+        </a>
+        <span class="tooltip">Automation</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-folder"></i>
+          <span class="link_name">File Manger</span>
+        </a>
+        <span class="tooltip">File Manger</span>
+      </li>
+
+      <li>
+        <a href="#">
+          <i class="bx bx-cog"></i>
+          <span class="link_name">Settings</span>
+        </a>
+        <span class="tooltip">Settings</span>
+      </li>
+      <li class="profile">
+        <div class="profile_details">
+          <img src="./image/1642230721090.jpg" alt="profile image">
+          <div class="profile_content">
+            <div class="name">Takshak Uke</div>
+            <div class="designation">Admin</div>
+          </div>
+        </div>
+        <i class="bx bx-log-out" id="log_out"></i>
+      </li>
+    </ul>
+  </div>
+  <!-- ==============card ==================-->
+  <section class="home-section">
+    <div class="text">Dashboard</div>
+
+    <div class="cardBox">
+      <div class="card">
+        <div>
+          <div class="numbers">1,500</div>
+          <div class="cardName">Daily Views</div>
+        </div>
+        <div class="iconBx">
+          <i class="fa-solid fa-arrows-to-eye"></i>
+        </div>
+
+      </div>
+      <div class="card">
+        <div>
+          <div class="numbers">80</div>
+          <div class="cardName">Sales</div>
+        </div>
+        <div class="iconBx">
+          <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+        </div>
+
+      </div>
+      <div class="card">
+        <div>
+          <div class="numbers">1,500</div>
+          <div class="cardName">Comments</div>
+        </div>
+        <div class="iconBx">
+          <i class="fa-regular fa-envelope"></i>
+        </div>
+
+      </div>
+      <div class="card">
+        <div>
+          <div class="numbers">$1,500</div>
+          <div class="cardName">Money</div>
+        </div>
+        <div class="iconBx">
+          <i class="fa-solid fa-money-bills"></i>
+
+        </div>
+
+      </div>
+
+    </div>
+    <!-- =========================Order Details================== -->
+    <div class="details">
+      <div class="recentOrders">
+        <div class="cardHeader">
+          <h2>Recent Order</h2>
+          <a href="#" class="btn">view All</a>
+
+        </div> 
+        <table>
+          <thead>
+            <tr>
+              <td>Name</td>
+              <td>Price</td>
+              <td>Payment</td>
+              <td>Status</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Refrigerator</td>
+              <td>$1200</td>
+              <td>Paid</td>
+              <td><span class="status delivered">Delivered</span></td>
+            </tr>
+
+            <tr>
+              <td>Dell Laptop</td>
+              <td>$1200</td>
+              <td>Paid</td>
+              <td><span class="status pending">Pending</span></td>
+            </tr>
+
+            <tr>
+              <td>Apple Watch</td>
+              <td>$1200</td>
+              <td>Paid</td>
+              <td><span class="status return">Return</span></td>
+            </tr>
+
+            <tr>
+              <td>Addidas Shoes</td>
+              <td>$1200</td>
+              <td>Paid</td>
+              <td><span class="status inProgress">In Progress</span></td>
+            </tr>
+
+            <tr>
+              <td>Refrigerator</td>
+              <td>$1200</td>
+              <td>Paid</td>
+              <td><span class="status delivered">Delivered</span></td>
+            </tr>
+
+            <tr>
+              <td>Dell Laptop</td>
+              <td>$1200</td>
+              <td>Paid</td>
+              <td><span class="status pending">Pending</span></td>
+            </tr>
+
+            <tr>
+              <td>Apple Watch</td>
+              <td>$1200</td>
+              <td>Paid</td>
+              <td><span class="status return">Return</span></td>
+            </tr>
+
+            <tr>
+              <td>Addidas Shoes</td>
+              <td>$1200</td>
+              <td>Paid</td>
+              <td><span class="status inProgress">In Progress</span></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+
+      <!-- ==================New Customer================ -->
+      <div class="recentCustomer">
+        <div class="cardHeader">
+          <h2>Recent Customer</h2>
+
+        </div> 
+        <table>
+          <tr>
+            <td >
+              <div class="imgBx"><img src="./image/1642230721090.jpg" alt="" width="60px"></div>
+            </td>
+            <td>
+              <h4>Takshak Uke <br><span>Nagpur</span></h4>
+            </td>
+          </tr>
+          <tr>
+            <td >
+              <div class="imgBx"><img src="./image/1642230721090.jpg" alt="" width="60px"></div>
+            </td>
+            <td>
+              <h4>Takshak Uke <br><span>Nagpur</span></h4>
+            </td>
+          </tr>
+          <tr>
+            <td >
+              <div class="imgBx"><img src="./image/1642230721090.jpg" alt="" width="60px"></div>
+            </td>
+            <td>
+              <h4>Takshak Uke <br><span>Nagpur</span></h4>
+            </td>
+          </tr>
+          <tr>
+            <td >
+              <div class="imgBx"><img src="./image/1642230721090.jpg" alt="" width="60px"></div>
+            </td>
+            <td>
+              <h4>Takshak Uke <br><span>Nagpur</span></h4>
+            </td>
+          </tr>
+          <tr>
+            <td >
+              <div class="imgBx"><img src="./image/1642230721090.jpg" alt="" width="60px"></div>
+            </td>
+            <td>
+              <h4>Takshak Uke <br><span>Nagpur</span></h4>
+            </td>
+          </tr>
+          <tr>
+            <td >
+              <div class="imgBx"><img src="./image/1642230721090.jpg" alt="" width="60px"></div>
+            </td>
+            <td>
+              <h4>Takshak Uke <br><span>Nagpur</span></h4>
+            </td>
+          </tr>
+          <tr>
+            <td >
+              <div class="imgBx"><img src="./image/1642230721090.jpg" alt="" width="60px"></div>
+            </td>
+            <td>
+              <h4>Takshak Uke <br><span>Nagpur</span></h4>
+            </td>
+          </tr>
+          <tr>
+            <td >
+              <div class="imgBx"><img src="./image/1642230721090.jpg" alt="" width="60px"></div>
+            </td>
+            <td>
+              <h4>Takshak Uke <br><span>Nagpur</span></h4>
+            </td>
+          </tr>
+          
+
+        </table>
+
+      </div>
+
+    </div>
+
+  </section>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
